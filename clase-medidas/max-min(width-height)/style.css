@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    width: 80%;
+    /*Cuando vamos a utilizar un min/max width necesitamos tener un width base y casi siempre sera en %.
+    el max-width es para delimitar el crecimiento osea que hasta que el contenedor llegue a ese tamaño, no seguira creciendo
+    el min-width es tambien para delimitar el decrecimiento osea que hasta que el contenedor llegue a ese tamaño, no seguira encogiendose*/
+    min-width: 320px;
+    max-width: 500px;
+    
+    /*Cuando vamos a utilizar el min/max en el heigth no es necesario colocar un height inicial,
+    para este ejemplo utilizamos este min-heigth para decirle al contenedor que va a crecer en altura a medida
+    que el texto vaya creciendo esto es para que no se salga del contenedor, y cuando el texto se acabe que el contenedor
+    crezca hasta ahi*/
+    min-height: 500px;
+    margin: 0 auto;/*Esto quiere decir que de arriba y abajo no se le agregue ningun margin,
+    pero de izquierda a derecha se me ajuste auomaticamente*/
+    background-color: aqua;
+}

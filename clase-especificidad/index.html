@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especifity</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="page-header">
+        <h1 id="page-title" class="title">Company</h1>
+        <nav>
+            <ul id="main-nav" class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Instructors</a></li>
+                <li><a href="#" class="main-nav__blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+<!--¿Como se controla el orden al declarar CSS?
+
+1. Importancia: 
+
+Nuestro proyecto se carga en el siguiente orden de importancia:
+
+1.1. Hoja de estilo de agente de usuario(Estilos del navegador)
+1.2 Declaraciones normales en hojas de estilo de autod(nuestro.css)
+1.3 Declaraciones importantes en hojas de estilos de autor(utilizar el !important)->Esta es una mala practica, TRATAR DE NO HACER!
+
+2. Especificidad
+
+El uno mas a la izquierda es el mas importante y el mas a la derecha el menos importante para el navegador
+
+Selectores                |                     Especificidad
+
+!important                                      1,0,0,0,0
+Inline styles(estilos directos en la etiqueta)  0,1,0,0,0
+#id                                             0,0,1,0,0
+.class                                          0,0,0,1,0
+tag                                             0,0,0,0,1
+
+3. Orden en las fuentes
+
+Es la forma en que nosotros mandamos a llamar los estilo
+
+En mis estilos, las declaraciones al final del documento anularan a las que sucedan antes en caso de conflicto
+osea que los estilos que siempre se van a aplicar son los que estan hasta abajo de mi documento
+
+ej. Mando a llamar una clase o un id en las primeras lineas y despues mando a llamar la misma clase o id con cosas
+no tan importantes hasta abajo, siempre se aplicaran los ultimos estilos y puede sobreescribir los que estan arriba
+
+Esto tambien aplica a la importacion de los estilos .css
+-->

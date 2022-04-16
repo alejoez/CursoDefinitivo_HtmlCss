@@ -1,0 +1,18 @@
+/*aplicar rojo a las etiquetas p a las que esten cercas a las h2*/
+/*h2 + p{
+    color: red;
+}*/
+
+/*Hermano general: aplica el estilo a las etiquetas que esten en la misma linea
+h2 ~ p{
+    color:red;
+}*/
+
+/*a la hija de la etiqueta padre se le va a aplicar el estilo, en este caso div es el padre
+div > p{
+    color: red;
+}*/
+
+div p{
+    color: red;
+}

@@ -1,0 +1,7 @@
+block: ocupa todo el tamaño y no permite que mas contenido se coloque al lado
+inline: permite que otras etiquetas o mas contenido se coloquen al lado
+        -No se puede utilizar el margin ni el padding en la parte de arriba o abajo,
+        izquiera y derecha si se puede
+        -no se le puede dar ni width ni height
+
+inline-block: fusion de lo mejor de block+inline

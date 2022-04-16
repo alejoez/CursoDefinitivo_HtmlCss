@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: purple;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    color: white;
+    background: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*Porque el blog quedaria de otro color si todos los elementos del menu estan de aguamarina?
+porque estoy mandando a llamar a la clase .nav y a la clase .main-nav__blog,
+y tiene mas especificidad que una clase y un tag
+como lo se? me puedo parar sobre la linea y me indica la especifidad,
+en este caso tiene una especifidad de dos y es mayor a la de arriba de 0,1,1*/
+
+.nav .main-nav__blog{
+    background-color: orange;
+}
+
+/*Nota: 
+Utilizar muchos id para los estilos es una mala practica
+Tratar de manejar solo clases*/

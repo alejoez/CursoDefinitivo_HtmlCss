@@ -1,0 +1,18 @@
+Hay dos tipos de medidas con css
+
+Medidas absolutas: Son medidas que no cambian sin importar el tamaño de la pantalla.
+-px 
+
+Medidas relativas: Son medidas que si cambian dependiendo de la pantalla.
+-%
+-em (element): Toma el tamaño de fuente que tenga el padre directo
+-rem(root em): rem siempre va a tener como referencia al estilo de la etiqueta root(html) y como el tamaño por defecto de html
+es 16px entonces siempre 1rem=16px
+
+Se recomienda colocar el font-size de html en 62.5% y usar medidas rem en el proyecto en vez de px principalmente
+en tamaño de fuentes y contenedores
+
+-max-width / max-height
+-min-width / min-height
+-vw(viewport width)
+-vh(viewport height)

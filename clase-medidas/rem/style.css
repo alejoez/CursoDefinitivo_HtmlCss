@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Truco: como por defecto el font-size del html es 16px
+le seteamos el 62.5% y nos daria 10px*/
+
+html{
+    font-size: 62.5%;/*Colocando esto nos aseguramos que 1 rem sea igual a 10px*/
+}
+
+p{
+    font-size: 1.6rem;/*1.6 x 10px = 16px, si quiero 20px colocamos 2rem, si quiero 30px colocamos 3rem*/
+}
+
+main div{
+    font-size: 1.6rem;
+}

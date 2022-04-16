@@ -1,0 +1,67 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*Pseudoclase*/
+.main-nav__item a:hover{
+    color: blue;
+}
+
+.main-nav__item a:active{
+    color: red;
+}  
+
+.boton{
+    background: red;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#numero1:target{
+    background: black;
+    color: white;
+}
+
+#numero2:target{
+    background: red;
+    color: white;
+}
+
+#numero3:target{
+    background: green;
+    color: white;
+}
+
+input{
+    display: block;
+    padding: 10px;
+}
+
+input:focus{
+    background: white;
+    outline-color: yellowgreen;
+}
+
+/*Pseudoelemento: Modifica los estilos de un elemento que hay dentro de una etiqueta*/
+.main-nav__item a::after{
+    content: " | ";
+}
+
+p::first-letter{
+    font-size: 30px;
+}

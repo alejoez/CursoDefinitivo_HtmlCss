@@ -1,0 +1,21 @@
+<!--https://coverr.co/-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video controls preload="auto"><!--El atributo preload no significa que el video se reproducira solo, sino que se comenzara a cargar rapido-->
+                <!--Lo que va en la url luego del formato que empieza con "#", significa en donde quiero que comience mi video y en donde termine-->
+                <source src="./videos/coding-video.mp4#t=5,10" /> <!--Esta etiqueta se usa cuando tengo videos de diferentes formatos, al utilizar esta etiqueta
+                nos aseguramos que cualquier navegador puedo mostrar el video en caso de que no soporte la extension.-->
+            </video>
+        </section>
+    </main>
+</body>
+</html>

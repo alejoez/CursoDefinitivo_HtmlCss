@@ -1,0 +1,18 @@
+/*Hay tres formas de agregar estilos*/
+
+/*selector por etiqueta*/
+h2{
+    color: green;
+    font-size: 40px;
+}
+
+/*selector por class*/
+.parrafo{
+    color: pink;
+}
+
+/*selector por id*/
+#texto{
+    color: blueviolet;
+    font-size: 24px;
+}

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+html{
+    font-size: 62.5%;
+}
+
+header p{
+   /*margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;*/
+   font-size: 1.3rem;
+   text-align: center;
+   background-color: red;
+   width: 35%;
+   padding: 2rem;
+   border-radius: 1rem;
+   top: 13rem;
+   position:relative;
+   margin: 0 auto;
+}
+
+main p{
+    background-color: lightgray;
+    width: 50%;
+    min-height: 1rem;
+    font-size: 1.3rem;
+    text-align:justify;
+    border-radius: 3rem;
+    padding: 8rem 5rem;
+    margin: 10rem auto;
+}

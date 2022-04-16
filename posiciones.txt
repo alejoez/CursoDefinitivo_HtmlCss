@@ -1,0 +1,8 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/#es
+
+position: static ---> por defecto que viene cuando se renderiza por primera vez el html, en esta posicion no se puede mover el elemento
+position: absolute ---> el elemento pierde la posicion en donde estaba y todo se vuelve reacomodar y se puede mover encima de lo demas
+position: relative ----> El elemento se puede mover pero se mantiene su posicion
+position: fixed
+position: sticky

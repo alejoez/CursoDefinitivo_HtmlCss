@@ -1,0 +1,74 @@
+<!--https://i.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-2019.pdf, etiquetas de HTML5--> 
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element-->
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <!--Va todo lo que es importante para el navegador para poder cargar el proyecto de la forma
+        en que lo construimos, pero no visual para el usuario. Por ejemplo: Librerias, css, etc...-->
+        <meta charset="UTF-8" />
+        <meta name="description" content="Esta pagina te mostrara fotos de gatos" /> <!--Esto ya es mas para seo-->
+        <meta name="robots" content="index-follow" /><!--Autorizar a los robots para que le ayuden a la pagina a posicionar nuestra pagina para las busquedas-->
+        <title>Es mi pagina</title><!--Este es el titulo de la pestaña de mis pagina-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!--Para hacer responsive mi proyecto, asegurarme que este siempre esta en nuestros proyectos web-->
+        <link rel="stylesheet" href="./css/style.css" /><!--Indicar en donde estala hoja de estilos de esta pagina-->
+    </head>
+    <body>
+        <!--Aqui si va la parte visual de nuestro proyecto web-->
+        <!--Hay dos tipos de etiquetas: Las de contenido y las contenedoras-->
+
+        <!--Contenedoras-->
+        <header>
+            <nav></nav>
+            <h1>!Soy la lista del super!</h1>
+        </header>
+        <main>
+            <section>
+                <article>
+                    
+                </article>
+            </section>
+
+            <!--Listas-->
+            <ul><!--Lista desordenada(UndesorderList)-->
+                <li>Frutas</li>
+                <ol>
+                    <li>Manzana</li>
+                    <li>Platano</li>
+                </ol>
+                <li>Carnes</li>
+                <ol>
+                    <li>Pollo</li>
+                    <li>Carne molida</li>
+                </ol>
+                <li>Verduras</li>
+                <ol>
+                    <li>Limón</li>
+                    <li><a href="https://www.directoalpaladar.com/ingredientes-y-alimentos/nuestras-mejores-47-recetas-zanahoria">Zanahoria</a></li>
+                </ol>
+            </ul>
+            <ol><!--Lista ordenada(OrderList)-->
+
+            </ol>
+        </main>
+
+        <footer>
+            <p>Creado con amor. Atentamente, AlejoE. <3</p>
+        </footer>
+
+        <hr />
+        <div>
+
+        </div>
+
+        <!--De contenido-->
+        <p>Soy un parrafo</p>
+        <h1>Soy un titulo</h1>
+        <h2>Soy un titulo en h2</h2>
+        <h3>Soy un titulo en h3</h3>
+        <h4>Soy un titulo en h4</h4>
+        <h5>Soy un titulo en h5</h5>
+        <h6>Soy un titulo en h6</h6>
+        <a href="#">Soy un link</a><!--El # es para que no me refresque la pagina-->
+
+    </body>
+</html>
