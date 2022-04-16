@@ -1,0 +1,22 @@
+Generic-families
+
+Genericas --> Vienen por default
+-Serif
+-sans-Serif
+-cursive
+-monospace
+
+-Como saber que fuentes tiene mi computador como base?
+En mi navegador -> menu -> configuracion -> Buscar: personalizar fuentes
+
+-Paginas para buscar fuentes
+https://fonts.google.com/ -> Desde ahi se pueden descargar
+
+Se selecciona la fuente, la modificamos si queremos, seleccionar embed
+
+en la opcion link se copia y se paga en el html
+
+para llamar la fuente copiamos lo que esta en "CSS rules to specify families"
+
+consejo: Solo cargar 1 fuente por proyecto
+importar siempre en la etiqueta head
