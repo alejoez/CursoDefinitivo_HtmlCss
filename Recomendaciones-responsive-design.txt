@@ -1,0 +1,12 @@
+Separar siempre los archivos de css por break point
+-mobile.css/style.css
+-tablet.css
+-desktop.css
+
+no es ideal tener mas de 6 break points
+
+Pagina para ver dimensiones promedio de dispositivos: www.mydevice.io
+
+en imaganes, el width: 100% es lo mejor, osea que este se adaptara siempre al padre
+
+https://allthetags.com/

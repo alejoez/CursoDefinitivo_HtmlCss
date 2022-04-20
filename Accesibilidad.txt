@@ -1,0 +1,18 @@
+¡Productos para todos!
+
+Estas practicas ayudan a personas por ejemplo con problemas de vision a reconocer toda nuestra pagina
+esto lo hacen por medio de algun software en donde le vaya explicando que esta haciendo
+en nuestra pagina.
+
+Que nuestros productos sean accesibles a todo mundo. Por ejemplo a personas con problemas.
+
+Semantica: Utilizar las etiquetas del html como: Container, header, main, sidebar, footer, osea... respetar la estructura de html y dejar de utilizar todo con div
+
+Texto: Simplemente la medida del texto, dejar de usar px en los textos.
+       Utilizar el tamaño del texto con medidas relativas como: rem.
+
+label, alt  y title:Dando clic en el label ya se activa por ejemplo el input
+                    Tratar de usar siempre el alt que esta con la imagen.
+                    title es otra propiedad que se recomienda para cuando usemos imagenes, es texto que aparece cuando pasamos el puntero sobre una imagen.
+
+Tabla periodica de html: https://allthetags.com/
